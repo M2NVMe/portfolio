@@ -16,37 +16,29 @@ const CONFIG = {
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        sortBy: 'updated', // Sort projects by 'stars' or 'updated'
+        limit: 5, // How many projects to display.
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
+          forks: true, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['M2NVMe/globalfoodflutter', 'M2NVMe/firebase_rodi'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['M2NVMe/globalfoodflutter', 'M2NVMe/firebase_rodi', 'M2NVMe/cubitflutter', 'M2NVMe/pas1_mobile_11pplg2_7'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
-      header: 'My Projects',
+      header: 'Extra Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'RailDrive',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'My personal Roblox game project. Made to improve on how I handle multiple situation that is out of my reach and resolve it as quickly as possible',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://tr.rbxcdn.com/180DAY-4905037184648dc5b670867f7d5afbcf/768/432/Image/Webp/noFilter',
+          link: 'https://www.roblox.com/games/7048507604/UPDATE-Untitled-Japanese-based-Ro-Scale-Game',
         },
       ],
     },
@@ -92,61 +84,57 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Fresh Graduate',
+      position: 'Not yet available',
+      from: 'Planned 2026',
+      to: 'Not yet available',
+      companyLink: '#',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'DBS Foundation Coding Camp 2024',
+      body: 'Machine Learning Certificates',
+      year: '2024',
+      link: '#',
+    },
+    {
+      name: 'SkilVul Lomba Digital Nasional',
+      body: 'Web Development Certificates',
+      year: '2023',
+      link: '#',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'SMK Raden Umar Said',
+      degree: 'Rekayasa Perangkat Lunak',
+      from: '2023',
+      to: '2026',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'SMP Negeri 3 Batang',
+      degree: '-',
+      from: '2020',
+      to: '2023',
+    },
+    {
+      institution: 'SD Kauman 7 Batang',
+      degree: '-',
+      from: '2014',
+      to: '2020',
     },
   ],
   publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
+    //{
+      //title: 'Publication Title',
+      //conferenceName: '',
+      //journalName: 'Journal Name',
+     // authors: 'John Doe, Jane Smith',
+      //link: 'https://example.com',
+      //description:
+      //  'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    //},
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
@@ -160,7 +148,7 @@ const CONFIG = {
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'luxury',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
