@@ -46,10 +46,10 @@ const CONFIG = {
   seo: { title: 'Portfolio of Bumi Bagus Wiraguna', description: 'My personal portfolio Website', imageURL: '' },
   social: {
     linkedin: 'bagus-wiraguna-59808130a',
-    x: 'M2SJ_h',
+    x: '',
     mastodon: '',
     researchGate: '',
-    facebook: 'Bagus Wiraguna',
+    facebook: '',
     instagram: '',
     reddit: '',
     threads: '',
